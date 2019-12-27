@@ -5,7 +5,7 @@
 ## General Flags
 PROJECT = test
 MCU = atmega128
-TARGET = out
+TARGET = Output
 CC = avr-gcc
 
 CPP = avr-g++
@@ -15,7 +15,7 @@ COMMON = -mmcu=$(MCU)
 
 ## Compile options common for all C compilation units.
 CFLAGS = $(COMMON)
-CFLAGS += -Wall -gdwarf-2 -std=gnu99        -DF_CPU=16000000UL -Os -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums
+CFLAGS += -Wall -gdwarf-2 -std=gnu99              -DF_CPU=16000000UL -Os -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums
 CFLAGS += -MD -MP -MT $(*F).o -MF dep/$(@F).d 
 
 ## Assembly specific flags
@@ -25,7 +25,7 @@ ASMFLAGS += -x assembler-with-cpp -Wa,-gdwarf2
 
 ## Linker flags
 LDFLAGS = $(COMMON)
-LDFLAGS +=  -Wl,-Map=out.map
+LDFLAGS +=  -Wl,-Map=Output.map
 
 
 ## Intel Hex file production flags
@@ -43,7 +43,7 @@ OBJECTS = test.o
 LINKONLYOBJECTS = 
 
 ## Build
-all: $(TARGET) out.hex out.eep out.lss size
+all: $(TARGET) Output.hex Output.eep Output.lss size
 
 ## Compile
 test.o: ../test.c
@@ -69,7 +69,7 @@ size: ${TARGET}
 ## Clean target
 .PHONY: clean
 clean:
-	-rm -rf $(OBJECTS) out dep/* out.hex out.eep out.lss out.map
+	-rm -rf $(OBJECTS) Output dep/* Output.hex Output.eep Output.lss Output.map
 
 
 ## Other dependencies
