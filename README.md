@@ -2,7 +2,9 @@
 
 - FND ATMEGA128
 
-1. 개요 : 보드프리()의 BL-700, BL-703 
+1. 개요 : 보드프리()의 BL-700, BL-703 보드 가지고 시계만들기
+   - ![.](/img/bl703.png)
+   - ![.](/img/bl700.png)
 
 2. 환경 :
    - IDE : AVRstudio 4.18 , Winavr2010
