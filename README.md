@@ -16,7 +16,7 @@
    - CK타입의 FND를 사용합니다. 핀맵은 아래와 같습니다. (아래 사진 참고)
    - 2SC1815 라는 BJT가 사용됬는데 일반적으로 많이쓰는 2n3904와 특성차이가 조금 있는데 FND Common gate로 사용할때는 뭐를 사용해도 문제가 되지 않습니다.
    - 단 위 2SC1815 와 2N3904 사이의 C,B,E 핀 배열이 서로 다릅니다. (아래 사진 참고)
-   ![sc](\img\2SC1815-NPN-Transistor-Pinout.jpg)
+   - ![.](/img/2SC1815-NPN-Transistor-Pinout.jpg)
    - 필요부품은 아래와 같습니다
      - FND * 2EA : CK타입 - 
      - 1/8W 탄소피막저항 330omh * 32EA
