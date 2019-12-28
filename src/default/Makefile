@@ -37,7 +37,7 @@ HEX_EEPROM_FLAGS += --change-section-lma .eeprom=0 --no-change-warnings
 
 
 ## Objects that must be built in order to link
-OBJECTS = test.o 
+OBJECTS = main.o 
 
 ## Objects explicitly added by the user
 LINKONLYOBJECTS = 
@@ -46,7 +46,7 @@ LINKONLYOBJECTS =
 all: $(TARGET) Output.hex Output.eep Output.lss size
 
 ## Compile
-test.o: ../test.c
+main.o: ../main.c
 	$(CC) $(INCLUDES) $(CFLAGS) -c  $<
 
 ##Link
