@@ -1,1 +1,1 @@
-<AVRWorkspace><IOSettings><CurrentRegisters/></IOSettings><part name="ATMEGA128"/><Files/></AVRWorkspace>
+<AVRWorkspace><IOSettings><CurrentRegisters/></IOSettings><part name="ATMEGA128"/><Files><File00000 Name="C:\Users\DHKim\Desktop\AVR_FND\FND-ATMEGA128\src\test.c" Position="258 67 1388 556" LineCol="50 2" State="Maximized"/><File00001 Name="c:\winavr-20100110\avr\include\util\delay.h" Position="292 124 1276 444" LineCol="89 3" State="Maximized"/></Files></AVRWorkspace>
