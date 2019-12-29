@@ -20,11 +20,11 @@
    - 단 위 2SC1815 와 2N3904 사이의 C,B,E 핀 배열이 서로 다릅니다. (아래 사진 참고)
    - ![.](/img/2SC1815-NPN-Transistor-Pinout.jpg)
    - 필요부품은 아래와 같습니다
-     - FND * 2EA : CC(comman Cathod)타입 - 
-     - 1/8W 탄소피막저항 330omh * 32EA
-     - Tact Switch * 4EA
+     - FND * 2EA : CC(comman Cathod)타입 - (굳이 산다면 이게 맞을듯..)https://www.devicemart.co.kr/goods/view?no=11549
+     - 1/8W 탄소피막저항 330omh * 32EA - 
+     - Tact Switch * 4EA - 
      - 3pi LED * 4EA
-     - 2SC1815 BJT *8EA
+     - 2SC1815 BJT *8EA - (핀배열이.. 독특하다...)https://www.devicemart.co.kr/goods/view?no=8812
    - 보드프리 사이트 메뉴얼은 codevision 용 소스코드이고, 제가 사용하는 컴파일러는 Winavr소스코드입니다. (예약어 차이 존재)
 
 4. 참고문서
