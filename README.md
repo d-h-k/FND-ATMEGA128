@@ -20,7 +20,7 @@
    - 단 위 2SC1815 와 2N3904 사이의 C,B,E 핀 배열이 서로 다릅니다. (아래 사진 참고)
    - ![.](/img/2SC1815-NPN-Transistor-Pinout.jpg)
    - 필요부품은 아래와 같습니다
-     - FND * 2EA : CK타입 - 
+     - FND * 2EA : CC(comman Cathod)타입 - 
      - 1/8W 탄소피막저항 330omh * 32EA
      - Tact Switch * 4EA
      - 3pi LED * 4EA
