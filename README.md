@@ -6,7 +6,7 @@
 1. 개요 : 보드프리()의 BL-700, BL-703 보드 가지고 시계만들기
    - ![.](/img/bl703.png)
    - ![.](/img/lb700.png)
-   
+   - 시계 기능 설명 하단링크
 2. 환경 :
    - IDE : AVRstudio 4.18 , Winavr2010
    - Windows10 only
