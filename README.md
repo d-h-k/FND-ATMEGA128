@@ -9,9 +9,9 @@
    - 시계 기능 설명 하단링크
    - 완성샷 [] 
    - 데모 시연 영상 [] 
-   https://youtu.be/4sMhRAwE9gY
-   https://youtu.be/Pnq4Y8KiZss
-   https://youtu.be/LWRGo69PfXA
+     - https://youtu.be/4sMhRAwE9gY
+     - https://youtu.be/Pnq4Y8KiZss
+     - https://youtu.be/LWRGo69PfXA
    
    
 2. 환경 :
